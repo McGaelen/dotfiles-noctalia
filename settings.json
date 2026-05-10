@@ -159,24 +159,30 @@
                     "textColor": "none"
                 },
                 {
-                    "displayMode": "onhover",
+                    "iconColor": "none",
+                    "id": "DarkMode"
+                },
+                {
+                    "displayMode": "alwaysHide",
                     "iconColor": "none",
                     "id": "Volume",
                     "middleClickCommand": "pwvucontrol || pavucontrol",
-                    "textColor": "none"
+                    "textColor": "secondary"
                 },
                 {
-                    "applyToAllMonitors": false,
-                    "displayMode": "onhover",
-                    "iconColor": "none",
-                    "id": "Brightness",
-                    "textColor": "none"
-                },
-                {
-                    "displayMode": "onhover",
+                    "displayMode": "alwaysHide",
                     "iconColor": "none",
                     "id": "Network",
                     "textColor": "none"
+                },
+                {
+                    "deviceNativePath": "__default__",
+                    "displayMode": "graphic",
+                    "hideIfIdle": false,
+                    "hideIfNotDetected": true,
+                    "id": "Battery",
+                    "showNoctaliaPerformance": true,
+                    "showPowerProfiles": true
                 },
                 {
                     "clockColor": "none",
@@ -450,7 +456,7 @@
         "autoSchedule": false,
         "dayTemp": "6500",
         "enabled": true,
-        "forced": false,
+        "forced": true,
         "manualSunrise": "06:30",
         "manualSunset": "18:30",
         "nightTemp": "4212"
@@ -469,7 +475,7 @@
         "enableMarkdown": false,
         "enableMediaToast": false,
         "enabled": true,
-        "location": "top_right",
+        "location": "top",
         "lowUrgencyDuration": 3,
         "monitors": [
         ],
