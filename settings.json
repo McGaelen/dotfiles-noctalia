@@ -198,6 +198,12 @@
                     "id": "DarkMode"
                 },
                 {
+                    "displayMode": "onhover",
+                    "iconColor": "none",
+                    "id": "Bluetooth",
+                    "textColor": "none"
+                },
+                {
                     "displayMode": "alwaysHide",
                     "iconColor": "none",
                     "id": "Volume",
