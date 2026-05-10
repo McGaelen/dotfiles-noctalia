@@ -198,6 +198,7 @@
                     "id": "DarkMode"
                 },
                 {
+                    "applyToAllMonitors": false,
                     "displayMode": "onhover",
                     "iconColor": "none",
                     "id": "Brightness",
