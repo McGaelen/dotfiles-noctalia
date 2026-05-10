@@ -94,6 +94,41 @@
             ],
             "left": [
                 {
+                    "colorizeSystemIcon": "none",
+                    "colorizeSystemText": "none",
+                    "generalTooltipText": "Launcher",
+                    "hideMode": "alwaysExpanded",
+                    "icon": "apps-filled",
+                    "iconPosition": "left",
+                    "id": "CustomButton",
+                    "ipcIdentifier": "",
+                    "leftClickExec": "vicinae open",
+                    "leftClickUpdateText": true,
+                    "maxTextLength": {
+                        "horizontal": 10,
+                        "vertical": 10
+                    },
+                    "middleClickExec": "",
+                    "middleClickUpdateText": false,
+                    "parseJson": false,
+                    "rightClickExec": "",
+                    "rightClickUpdateText": false,
+                    "showExecTooltip": false,
+                    "showIcon": true,
+                    "showTextTooltip": false,
+                    "textCollapse": "",
+                    "textCommand": "",
+                    "textIntervalMs": 3000,
+                    "textStream": false,
+                    "wheelDownExec": "",
+                    "wheelDownUpdateText": false,
+                    "wheelExec": "",
+                    "wheelMode": "unified",
+                    "wheelUpExec": "",
+                    "wheelUpUpdateText": false,
+                    "wheelUpdateText": false
+                },
+                {
                     "characterCount": 2,
                     "colorizeIcons": false,
                     "emptyColor": "secondary",
@@ -344,8 +379,8 @@
         "enableBlurBehind": true,
         "enableLockScreenCountdown": true,
         "enableLockScreenMediaControls": false,
-        "enableShadows": true,
-        "forceBlackScreenCorners": false,
+        "enableShadows": false,
+        "forceBlackScreenCorners": true,
         "iRadiusRatio": 1,
         "keybinds": {
             "keyDown": [
@@ -383,13 +418,13 @@
         "radiusRatio": 1,
         "reverseScroll": false,
         "scaleRatio": 1,
-        "screenRadiusRatio": 0.7000000000000001,
+        "screenRadiusRatio": 0.8,
         "shadowDirection": "bottom",
         "shadowOffsetX": 0,
         "shadowOffsetY": 3,
         "showChangelogOnStartup": true,
         "showHibernateOnLockScreen": false,
-        "showScreenCorners": false,
+        "showScreenCorners": true,
         "showSessionButtonsOnLockScreen": true,
         "smoothScrollEnabled": true,
         "telemetryEnabled": false
@@ -416,9 +451,9 @@
         "resumeScreenOffCommand": "",
         "resumeSuspendCommand": "",
         "screenOffCommand": "",
-        "screenOffTimeout": 600,
+        "screenOffTimeout": 300,
         "suspendCommand": "",
-        "suspendTimeout": 1800
+        "suspendTimeout": 900
     },
     "location": {
         "analogClockInCalendar": false,
@@ -450,9 +485,9 @@
         "autoSchedule": false,
         "dayTemp": "6500",
         "enabled": true,
-        "forced": false,
-        "manualSunrise": "06:30",
-        "manualSunset": "18:30",
+        "forced": true,
+        "manualSunrise": "05:00",
+        "manualSunset": "04:00",
         "nightTemp": "4212"
     },
     "noctaliaPerformance": {
@@ -460,7 +495,7 @@
         "disableWallpaper": true
     },
     "notifications": {
-        "backgroundOpacity": 0.3,
+        "backgroundOpacity": 0.85,
         "clearDismissed": true,
         "criticalUrgencyDuration": 15,
         "density": "default",
@@ -469,7 +504,7 @@
         "enableMarkdown": false,
         "enableMediaToast": false,
         "enabled": true,
-        "location": "top_right",
+        "location": "top",
         "lowUrgencyDuration": 3,
         "monitors": [
         ],
